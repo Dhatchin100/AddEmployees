@@ -16,7 +16,7 @@ document
     if (!name || !profession || !age) {
       const errorMessage = document.createElement("p");
       errorMessage.className = "error";
-      errorMessage.textContent = "All fields are required!";
+      errorMessage.textContent = "Please make sure All the fields are filled before adding the employee";
       messagesDiv.appendChild(errorMessage);
       status1.style.display = "block";
     } else {
